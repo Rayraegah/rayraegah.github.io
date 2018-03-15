@@ -2,12 +2,9 @@
 Because Rayraegah needs a web presence
 
 ## About project
-This repository contains compiled code for my website. Report any bugs you find, as well as improvements on UX or code [here](https://github.com/Rayraegah/rayraegah.github.io/issues).
+I use this repository for many things. The `html` files become a poor execute for a [website](https://rayraegah.github.io). You'll find my public todo lists in this projects issues and I experiment with `Github API` and this repo is my genia pig.
 
-### Preview
-[http://www.rayraegah.github.io](http://www.rayraegah.github.io)
+If you find something that shouldn't be here, create an issue.
 
-
-Despite being open sourced, all code and content remain copyright of Severan Rye.
-
-*R*
+## License
+MIT.
