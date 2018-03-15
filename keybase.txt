@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rayraegah
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rayraegah.github.io
+  * I am rayraegah (https://keybase.io/rayraegah) on keybase.
+  * I have a public key with fingerprint 4023 469C 167F BE02 AAF0  7018 42F5 B157 BB45 09F9
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010144023b16d318cd8b0c7225b0a4b2b0f976230d97f504fbe5c7367e3766c003c50a",
+            "fingerprint": "4023469c167fbe02aaf0701842f5b157bb4509f9",
+            "host": "keybase.io",
+            "key_id": "42f5b157bb4509f9",
+            "kid": "010144023b16d318cd8b0c7225b0a4b2b0f976230d97f504fbe5c7367e3766c003c50a",
+            "uid": "3b3681d1376c185dcf925de4d074d719",
+            "username": "rayraegah"
+        },
+        "service": {
+            "hostname": "rayraegah.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469037570,
+    "expire_in": 157680000,
+    "prev": "3e32111a7692161037d5f73761c954b74d0d7aff861e1fed18fcad9f2e112bff",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSBRRGF7dNXJDiMIsIsixJGiTc+Z2ZpYeKqGily5sqahsc2bOWcfL
+zjY7a5nYhghWJBVdqIwNhQish4hSKhO1IkyzDKSHLmAE2eVBraCsoDNWL9Fj5+Vw
+/vN93/99P//dLK/HnxZ5tfO1nWpJSxvsO5/wFB3pTq/nsGXUccF6rorMXKTaIHEn
+XGUaXJADEEBRBLyAoWwIUNENBQMd8byEgSZiHgOqIpkXgKEiKgGRYiLpSJAREZAs
+6wAIugQ0LsBRMxohdsw2ow6TdRVFWdWhjBgD8JpGAQJQEXkqYSghjEUJqFRlxAor
+7jKYOazFSYFpsRp7hGfs/QP/n30nZuQELMgKNCD71KEiGTpVeckgogGQaCDo9k3E
+iR3VaghD21qdrZGIVsE1BDhWrjV14k7WjfI3pCBiOhUJ/CtXzLYcS7eqGaDCcWLx
+oCvg1MVcxm6Cw7+1wtiMGmyejFFL7LhpRbkgZEjdMV1xyCYLBCQhEODInphpk7Dp
+IiQkK4Adtw+pdVMRgYcQakhWeShDxjEkilhGqKuSiFk0YCCNUkWGBFJiQIXqmqFS
+nkDIY0o5N92uqMUFVWZTizDJuBmJak7CJlxDf2+Zz5Pm98zKSHf3zOPPnPtn+yzP
+bE/b0W/7C/eN3gnO27Dv3BkYnvx8fSivOTQwErqRCi0q+V5+LGti/dUvZebEjjdb
+yod4f/GVw517Shd8+tr4ICN6XLuW8L7Oy/AuLnw/trBy+3TB2ndvv63Lyb9Ip5r4
+UG4rMGFX6dLv5ctGH6sfM3dvS3a2PZq1ulO5d7vvhTcnc3jAudguL28Jbp44lJvV
+kUp2Xz7x1Jcs2XorGXz2YWww1dB6v6NnTv+SnsZNU+3Nzpr5TdMHTnf5Lj0fpxdO
+Vq04+/DT/uzUHDq2ZNK3MnEwO7QRquu6hmtOFahvfaum/UOxVEtkqjeZ11L0Ye+T
+ofGDk5VcIL94VMk4kByXRn7cfPkThXRCbg==
+=mHr2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rayraegah
+
+==================================================================
