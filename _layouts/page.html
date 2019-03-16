@@ -3,14 +3,14 @@
 	lang="{{ page.lang | default: site.lang | default: "en" }}"
 	class="{{ page.theme | default: "default" }}">
 
-	{%- include site_head.html -%}
+	{% include site_head.html %}
 
 	<article>
-		{%- include site_header.html -%}
+		{% include site_header.html %}
 		
 		{{ content }}
-		{%- include site_toc.html -%}
+		{% include site_toc.html %}
 
-		{%- include site_footer.html -%}
+		{% include site_footer.html %}
 	</article>
 </html>

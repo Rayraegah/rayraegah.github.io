@@ -2,9 +2,9 @@
 	<footer>
 		<a href="/">Home</a>
 		 | <a href="/about">About</a>
-		{%- if page.next.url -%}
+		{% if page.next.url %}
 		<em> | Next: </em>
 		<a href="{{page.next.url}}">{{page.next.title}}</a>
-		{%- endif -%}
+		{% endif %}
 	</footer>
 </section>

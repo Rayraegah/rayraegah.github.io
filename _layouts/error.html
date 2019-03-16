@@ -3,7 +3,7 @@
 	lang="{{ page.lang | default: site.lang | default: "en" }}"
 	class="{{ page.theme | default: "default" }}">
 
-	{%- include site_head.html -%}
+	{% include site_head.html %}
 
 	<article>
 		{{ content }}
