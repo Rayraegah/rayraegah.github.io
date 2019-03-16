@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  jekyll-blog:
+    build: ./
+    restart: always
+    volumes:
+      - ./:/app
+    ports:
+      - 80:4000
