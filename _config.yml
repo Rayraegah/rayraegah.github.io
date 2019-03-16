@@ -1,0 +1,41 @@
+title: Guiding Lights
+author: Rayraegah
+description: >-
+  This is my journal where I write about people, places, technology, and trends. Opinions expressed here are my own. 
+baseurl: ""
+url: "https://rayraegah.github.io"
+tracker: UA-136388659-1
+
+# Social
+twitter_username: rayraegah
+github_username: rayraegah
+
+# License
+license_name: >-
+  Creative Commons Attribution-ShareAlike 4.0 International License
+license_url: http://creativecommons.org/licenses/by-sa/4.0/
+
+# Content settings
+show_excerpts: false
+date_format: "%b, %Y"
+permalink: /journal/:slug
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo
+
+# Exclude from processing.
+exclude:
+  - Readme.md
+  - License.md
+  - Dockerfile
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
