@@ -1,5 +1,5 @@
 ---
-title: Guiding Lights
+title: Perspectives
 layout: page
 ---
 
