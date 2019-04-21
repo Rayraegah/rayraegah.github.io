@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thoughts on present day corporate culture"
+title: "On Present Day Corporate Culture"
 date: 2019-01-26 06:00:00 +0900
 categories: [People]
 tags: [rant, culture]

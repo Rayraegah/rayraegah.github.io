@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Feynman Estimation Technique"
+title: "On Feynman Estimation Technique"
 date: 2019-01-26 06:00:00 +0900
-categories: [People]
+categories: [Engineering]
 tags: [estimation, management, strategy]
 ---
 
