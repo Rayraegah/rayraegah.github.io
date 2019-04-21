@@ -3,7 +3,7 @@ author: Rayraegah
 description: >-
   This is my journal where I write about culture, people, places, technology, and trends. Opinions expressed here are my own.
 baseurl: ""
-url: https://rayraegah.github.io
+url: https://rayraegah.com
 tracker: UA-138735543-1
 
 # Social
@@ -25,6 +25,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo
+  - jekyll-sitemap
 
 # Exclude from processing.
 exclude:
