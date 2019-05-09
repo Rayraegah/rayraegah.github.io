@@ -1,24 +1,29 @@
-title: Perspectives
-author: Rayraegah
-description: >-
-  This is my journal where I write about culture, people, places, technology, and trends. Opinions expressed here are my own.
+# Site settings
+title: Rayraegah
+email: rayraegah@icloud.com
+description: "An engineering psychologist"
+tagline: "Hello I am Rayraegah"
 baseurl: ""
-url: https://rayraegah.com
-tracker: UA-138735543-1
+url: "https://rayraegah.com"
+bug_report: "https://github.com/rayraegah/rayraegah.github.io/issues"
+images_root: "https://rayraegah.com"
 
 # Social
 twitter_username: rayraegah
 github_username: rayraegah
 
-# License
+# Analytics
+tracker: UA-138735543-1
+
+# Content license
 license_name: >-
   Creative Commons Attribution-ShareAlike 4.0 International License
 license_url: http://creativecommons.org/licenses/by-sa/4.0/
 
-# Content settings
-show_excerpts: false
-date_format: "%b, %Y"
-permalink: /journal/:slug
+# Pagination
+per_page: 10
+paginate: 10 # should match per_page above
+paginate_path: "page:num"
 
 # Build settings
 markdown: kramdown
@@ -26,17 +31,23 @@ plugins:
   - jekyll-feed
   - jekyll-seo
   - jekyll-sitemap
+  - jekyll-paginate
 
-# Exclude from processing.
+# Permanent links
+permalink: /journal/:title/
+
+# Do not include in build
 exclude:
-  - Readme.md
-  - License.md
+  - .gitignore
+  - .editorconfig
+  - README.md
+  - LICENSE
   - Dockerfile
   - docker-compose.yml
+  - package.json
+  - package-lock.json
   - Gemfile
   - Gemfile.lock
+  - build.sh
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor

@@ -1,12 +1,25 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-	{% include site_head.html %}
-<body>
-<article>
-	{% include site_header.html %}
-	{{ content }}
+---
+layout: default
+---
+<div id="post" class="post pagecontent-item" data-color="{{ page.color }}">
 
-	{% include post_footer.html %}
-</article>
-</body>
-</html>
+	<header class="postheader">
+		<h1>{{ page.title }}</h1>
+		<p class="postheader-meta smalltext">{{ page.date | date: "%-d %b %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	</header>
+
+	<article class="post-content">
+		{{ content }}
+	</article>
+
+	<footer class="postfooter">
+		<span class="postfooter-date">Published {{ page.date | date: "%-d %b %Y" }}</span>
+		<div class="sharelinks">
+			{% include share.html %}
+		</div>
+		<a id="postcommentslink" class="slidelink postcommentslink color-{{ page.color }}">
+			<span class="slidelink-label postcommentslink-label" data-label="Show comments">Show comments</span>
+		</a>
+	</footer>
+
+</div>

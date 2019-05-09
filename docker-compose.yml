@@ -1,9 +1,11 @@
-version: '3.6'
+version: "3.6"
 services:
-  jekyll-blog:
-    build: ./
+  jekyll:
+    image: jekyll/jekyll
+    command: jekyll serve
     restart: always
     volumes:
-      - ./:/app
+      - ./:/srv/jekyll
+      - ./vendor/bundle:/usr/local/bundle
     ports:
       - 80:4000

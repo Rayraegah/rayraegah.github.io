@@ -1,0 +1,33 @@
+<div id="panels" class="panels pagecontent-item">
+
+	{% assign total = paginator.posts | size %}
+	{% if total == 0 %}
+		{% assign posts = site.posts %}
+		{% assign next_page_path = "/page2" %}
+	{% else %}
+		{% assign posts = paginator.posts %}
+		{% if paginator.next_page_path %}
+			{% assign next_page_path = paginator.next_page_path %}
+		{% else %}
+			{% assign next_page_path = false %}
+		{% endif %}
+	{% endif %}
+
+	{% for post in posts limit:site.per_page %}
+	<a class="panel color-{{ post.color }}" href="{{ post.url | prepend: site.baseurl }}" data-color="{{ post.color }}" data-router>
+		<div class="panel-content">
+			<span class="panel-date smalltext">{{ post.date | date: "%-d %b %Y" }}</span>
+			<h1 class="panel-headline">{% if post.short_title %}{{ post.short_title }}{% else %}{{ post.title }}{% endif %}</h1>
+			<p class="panel-summary">{% if post.summary %}{{ post.summary }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
+			<div class="panel-read">
+				<span class="panel-read-text smalltext">Read article</span>
+			</div>
+		</div>
+	</a>
+	{% endfor %}
+
+</div>
+
+{% if next_page_path %}
+<a id="panels-nav" class="panels-nav is-hidden" href="{{ next_page_path }}"></a>
+{% endif %}

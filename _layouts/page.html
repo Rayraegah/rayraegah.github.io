@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html 
-	lang="{{ page.lang | default: site.lang | default: "en" }}"
-	class="{{ page.theme | default: "default" }}">
+---
+layout: default
+---
+<div class="post">
 
-	{% include site_head.html %}
+	<header class="postheader">
+		<h1>{{ page.title }}</h1>
+	</header>
 
-<article>
-	{% include site_header.html %}
-	
-	{{ content }}
-	{% include site_toc.html %}
+	<article class="postcontent">
+		{{ content }}
+	</article>
 
-	{% include site_footer.html %}
-</article>
-</html>
+</div>
