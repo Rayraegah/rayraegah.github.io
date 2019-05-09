@@ -22,7 +22,7 @@ function App () {
 var proto = App.prototype;
 
 proto.init = function () {
-	this.analytics = new Analytics('UA-54501731-1', 'minimalmonkey.github.io', 200);
+	this.analytics = new Analytics('UA-138735543-1', 'rayraegah.com', 200);
 
 	if (FeatureDetect.touch()) {
 		document.documentElement.classList.remove('no-touch');
