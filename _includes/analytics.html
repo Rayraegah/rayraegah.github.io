@@ -21,3 +21,16 @@
 	gtag("js", new Date());
 	gtag("config", "{{ site.tracker }}");
 </script>
+
+<!-- crash analytics -->
+<script
+	src="https://browser.sentry-cdn.com/5.2.0/bundle.min.js"
+	crossorigin="anonymous">
+</script>
+
+<!-- init sentry -->
+<script type="text/javascript">
+	Sentry.init({
+		dsn: 'https://0ebecf394e5e488da2a8ae0d0b990723@sentry.io/1459214'
+	});
+</script>

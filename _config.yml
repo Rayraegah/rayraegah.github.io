@@ -15,9 +15,6 @@ github_username: rayraegah
 # Analytics
 tracker: UA-138735543-1
 
-# Site source directory
-source: www
-
 # Content license
 license_name: >-
   Creative Commons Attribution-ShareAlike 4.0 International License
@@ -51,6 +48,6 @@ exclude:
   - package-lock.json
   - Gemfile
   - Gemfile.lock
-  - src
+  - build.sh
   - node_modules
   - vendor
