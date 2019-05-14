@@ -1,5 +1,5 @@
 <!-- site analytics -->
-<script 
+<script
 	async
 	src="https://www.googletagmanager.com/gtag/js?id={{ site.tracker }}">
 </script>
@@ -11,13 +11,26 @@
 		navigator.doNotTrack === "1" ||
 		navigator.doNotTrack === "yes" ||
 		navigator.msDoNotTrack === "1";
-	
+
 	window.dataLayer = window.dataLayer || [];
-	
+
 	function gtag() {
 		dataLayer.push(arguments);
 	}
-	
+
 	gtag("js", new Date());
 	gtag("config", "{{ site.tracker }}");
+</script>
+
+<!-- crash analytics -->
+<script
+	src="https://browser.sentry-cdn.com/5.2.0/bundle.min.js"
+	crossorigin="anonymous">
+</script>
+
+<!-- init sentry -->
+<script type="text/javascript">
+	Sentry.init({
+		dsn: 'https://0ebecf394e5e488da2a8ae0d0b990723@sentry.io/1459214'
+	});
 </script>
