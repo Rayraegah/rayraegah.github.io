@@ -6,15 +6,16 @@ date: 2019-05-01 06:00:00 +0900
 
 short_title: "UBI and automation"
 summary: "The robots are here to take our jobs. What happens next? An opinion piece I wrote for user view magazine."
-color: navy
+color: green
+ignore_tests: false
 ---
 
 In 122 BC, Gaius Gracchus initiated a policy that would later be known as
-*"Bread and Circuses."* Roman landowners had slowly but surely replaced their workers with cheap slaves from the colonies. This resulted in high unemployment of the Roman population. As the empire found itself in a situation where production flourished but the population suffered, they introduced a policy of free grain and entertainment, which led to new stability.
+_"Bread and Circuses."_ Roman landowners had slowly but surely replaced their workers with cheap slaves from the colonies. This resulted in high unemployment of the Roman population. As the empire found itself in a situation where production flourished but the population suffered, they introduced a policy of free grain and entertainment, which led to new stability.
 
 Replace landowners with shareholders and slaves with robots, and you will see where we are headed.
 
-You, may probably love your job. It gives you status in society, an answer to the favorite small-talk question, *"What do you do?"* Maybe you even think it gives you a purpose in life. And, if nothing else, it puts some money into your bank account every month. But if you had the choice: take the blue pill and keep working for your money as you've always done, or take the red pill and you will never have to work a day in your life again. What do you do?
+You, may probably love your job. It gives you status in society, an answer to the favorite small-talk question, _"What do you do?"_ Maybe you even think it gives you a purpose in life. And, if nothing else, it puts some money into your bank account every month. But if you had the choice: take the blue pill and keep working for your money as you've always done, or take the red pill and you will never have to work a day in your life again. What do you do?
 
 This is the question we are facing, as we are increasingly automating our economy. If the fact that the bots are coming for your job is news to you, I suggest you watch [this video by CGP Grey](https://www.youtube.com/watch?v=7Pq-S557XQU), one of many that will bring you up to speed.
 
@@ -26,7 +27,7 @@ The first thing we need to do to adjust this model is cross out the labor connec
 
 The most widely suggested way to fix the chain at this point is a Universal Basic Income (in short, UBI), a state-distributed payment to cover your basic needs.
 
-*"Hold on there,"* you think. *"This sounds a lot like communism!"* It's not. Bear with me. The elephant in the room is, where does the state get enough money to pay every citizen a monthly income?
+_"Hold on there,"_ you think. _"This sounds a lot like communism!"_ It's not. Bear with me. The elephant in the room is, where does the state get enough money to pay every citizen a monthly income?
 
 In a communistic system, the answer would be the state just owns all production. But in a capitalistic Automated Economy, not so! Anyone can start and own a business, and the state will have to get its share through taxes. With that in mind, let's go back to our model.
 
@@ -34,7 +35,7 @@ Who do you think has been the greatest beneficiary of automation so far? You mig
 
 They won't have to pay any employees anymore, remember? This saves them a fortune. A business's largest expense by far is usually people. All this money is now saved. That's why under the old, or rather current, system a gradual move towards more automation results in two things: a buildup in a business's cash reserves, and a growing income gap as ever-more wealth is distributed among fewer employees, things which we can already observe today.
 
-So that's why in a capitalistic Automated Economy, there will simply have to be a  higher tax on company profits. And the entire system is financed. And the best thing is, if we play our cards right, everybody wins!
+So that's why in a capitalistic Automated Economy, there will simply have to be a higher tax on company profits. And the entire system is financed. And the best thing is, if we play our cards right, everybody wins!
 
 Shareholders of the businesses still end up with higher profits, and citizens can live on a steadily increasing UBI.And it makes sense that everyone wins, because the entire system has become so much more efficient.We have an automated workforce that runs on electricity cost.
 
@@ -51,7 +52,7 @@ When the heat is in place, the rest of the body can work. Once we know the desti
 
 Automation indices measure the level of automation some organization has reached over time. There would be two of them: a business automation index (in short BAI), and a national automation index (in short NAI). The BAI determines how much automation a particular company has reached, and is used to calculate the taxes they have to pay. For example, a company with a BAI of 1 has reached complete automation and falls into the highest tax bracket of a corporate base tax, which is simply today's corporate tax plus 100 percent of an automation tax, which is around the same. A company with a BAI of 0.5 has reached half its automation potential and falls into a medium tax bracket, of a corporate base tax plus another 50 percent of the automation tax rate.
 
-*"Great!"* you think. *"But how on Earth do you calculate, or  determine, the BAI for a specific company?"* All I can tell you is that everything that's needed to calculate the BAI can already be found in a company's financial statements today.
+_"Great!"_ you think. _"But how on Earth do you calculate, or determine, the BAI for a specific company?"_ All I can tell you is that everything that's needed to calculate the BAI can already be found in a company's financial statements today.
 
 ### What about the national automation index?
 

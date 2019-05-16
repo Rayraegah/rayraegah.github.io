@@ -6,7 +6,8 @@ date: 2019-04-26 06:00:00 +0900
 
 short_title: "Hello world from Tokyo"
 summary: "Eventhough the world never says hello back"
-color: green
+color: blue
+ignore_tests: false
 ---
 
 I never wanted to have a website for myself. I've had a couple of them in the past, and over the years I've put together a few shitty blog posts, but there are three big reasons why I was longer interested:

@@ -36,6 +36,9 @@ plugins:
 # Permanent links
 permalink: /journal/:title/
 
+include:
+  - _jest.json
+
 # Do not include in build
 exclude:
   - .gitignore
@@ -48,6 +51,7 @@ exclude:
   - package-lock.json
   - Gemfile
   - Gemfile.lock
-  - build.sh
   - node_modules
   - vendor
+  - lib
+  - __tests__
