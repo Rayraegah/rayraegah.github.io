@@ -40,7 +40,7 @@ Software engineering increases every aspect of my anthropological training. Lear
 
 Being a software engineer has made me interested in being a data scientist and combining my data love with big data. It made me interested in data journalism and finding new and interactive ways to present information online. Engineering gives my anthropology wings brand. I have become so used to re-imagining how anthropology can be applied to new places where innovation and anthropology have become linked in the way I work.
 
-## To have the cake and to it
+## To have the cake and eat it
 
 Being trained as both an anthropologist and a software engineer means I mix and match these two perspectives. I live with iteration. Small changes over time have an enormous effect. But even when I make those changes, I always keep the big picture in mind and frame it to make recommendations beyond the context of the problem and business. I observed patterns in the system in which I work and became sensitive to how my iterative changes affect the whole. But I'm always looking to break down the problem. What is the simplest solution I can put into action? Can I improve that a little bit more? Getting something up and running is more informative for my immediate problem than theorizing general solutions.
 
